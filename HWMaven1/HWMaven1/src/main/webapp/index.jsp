@@ -8,6 +8,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World new thing newer and still newer  and still more </h1>
+        <h1>Hello World new thing newer</h1>
     </body>
 </html>
