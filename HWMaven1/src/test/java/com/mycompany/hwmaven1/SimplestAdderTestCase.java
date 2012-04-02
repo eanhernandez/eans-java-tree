@@ -11,9 +11,9 @@ import static org.junit.Assert.*;
  *
  * @author ean
  */
-public class SimplestAdderTest {
+public class SimplestAdderTestCase {
     
-    public SimplestAdderTest() {
+    public SimplestAdderTestCase() {
     }
 
     @BeforeClass
