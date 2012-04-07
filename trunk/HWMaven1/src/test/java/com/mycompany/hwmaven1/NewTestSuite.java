@@ -15,7 +15,7 @@ import org.junit.runners.Suite;
  * @author ean
  */
 @RunWith(Suite.class)
-@Suite.SuiteClasses(value={SimplestAdderTest.class})
+@Suite.SuiteClasses(value={SimplestAdderTest.class,ReverseTest.class})
 public class NewTestSuite {
 
     @BeforeClass
