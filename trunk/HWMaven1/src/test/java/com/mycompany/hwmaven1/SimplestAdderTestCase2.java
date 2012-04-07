@@ -36,8 +36,8 @@ public class SimplestAdderTestCase2 {
      * Test of addit method, of class SimplestAdder.
      */
     @Test
-    public void testAddit() {
-        System.out.println("addit fail case");
+    public void testAddit2() {
+        System.out.println("addit case 2");
         int x = 5;
         int y = 10;
         SimplestAdder instance = new SimplestAdder();
