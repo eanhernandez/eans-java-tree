@@ -11,9 +11,9 @@ import static org.junit.Assert.*;
  *
  * @author ean
  */
-public class SimplestAdderTestCase {
+public class SimplestAdderTestCase2 {
     
-    public SimplestAdderTestCase() {
+    public SimplestAdderTestCase2() {
     }
 
     @BeforeClass
@@ -37,12 +37,15 @@ public class SimplestAdderTestCase {
      */
     @Test
     public void testAddit() {
-        System.out.println("addit 3+5");
-        int x = 3;
-        int y = 5;
+        System.out.println("addit fail case");
+        int x = 5;
+        int y = 10;
         SimplestAdder instance = new SimplestAdder();
-        int expResult = 8;
+        int expResult = 15;
         int result = instance.addit(x, y);
         assertEquals(expResult, result);
+        
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
     }
 }
