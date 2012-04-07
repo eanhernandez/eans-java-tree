@@ -44,8 +44,5 @@ public class SimplestAdderTestCase2 {
         int expResult = 15;
         int result = instance.addit(x, y);
         assertEquals(expResult, result);
-        
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 }
