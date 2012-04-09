@@ -8,6 +8,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World new thing now trimmer </h1>
+        <h1>Now we have CI.</h1>
     </body>
 </html>
