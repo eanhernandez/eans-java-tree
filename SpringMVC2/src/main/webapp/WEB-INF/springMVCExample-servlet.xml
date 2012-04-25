@@ -4,10 +4,10 @@
  xsi:schemaLocation="http://www.springframework.org/schema/beans 
     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
  
-    <bean name="/example.htm" class="src.ExampleController">
+    <bean name="/example.htm" class="com.mycompany.controllers.ExampleController">
     </bean>
 
-     <bean name="/bleh.htm" class="src.BlehController">
+     <bean name="/bleh.htm" class="com.mycompany.controllers.BlehController">
     </bean>
 
  
